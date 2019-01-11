@@ -261,7 +261,7 @@
           "title3": "магазин",
           "text3": "Интернет магазин + товары",
           "currency3": "₽",
-          "price3": "60000",
+          "price3": "50000",
           "period3": "/ год",
           "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">25 GB of space</li><li class=\"pricing__feature\">Support at 24/7\n</li><li class=\"pricing__feature\"><span style=\"font-size: 13.5375px;\">Creation will take 30 to 50 days</span></li></ul>",
           "button3": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
