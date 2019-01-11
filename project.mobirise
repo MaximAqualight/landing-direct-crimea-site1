@@ -1,0 +1,531 @@
+{
+  "settings": {
+    "name": "Landing & Direct Crimea",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore-Rus",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": true
+      },
+      "additionalSetColors": [
+        "#ffffff",
+        "#151515",
+        "#dbdbdb",
+        "#111111"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.10",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/ld-crimea001-128x92.png",
+    "noImageResize": "",
+    "seo-meta": "",
+    "globalfooter": "",
+    "uniqCompNum": 21,
+    "versionPublish": "4.6.4",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Landing &amp; Direct Crimea\n",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#333"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"true\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"true\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#333",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#333"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ld-crimea001-shapka-370x127.png",
+              "class": "",
+              "height": 128,
+              "alt": "Landing&Direct Crimea",
+              "link": "#top",
+              "title": ""
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-k"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#03a9f4",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.5",
+            "showIcons": true,
+            "iconsColor": "#ffffff",
+            "icon1": "fa-bolt",
+            "icon2": "fa-magnet"
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "title": "APPLY NOW!",
+          "title1": "Знакомьтесь с Landing&amp;Direct Crimea",
+          "title2": "Кто мы?",
+          "title3": "Чем мы занимаемся?",
+          "text1": "Мы новая команда из Крыма которая занимается любимым делом, для нас наша работа, это увлечение, хобби, любимый род занятий.",
+          "text2": "Мы занимаемся исключительно созданием лендингов, сайтов и рекламой в интернете на площадках Вконтакте, Яндекс.Директ и Google AdWords.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">отправить</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "landingdirect82@bk.ru",
+            "alerts": {
+              "success": "Благодарим за заполнение формы!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "First Name",
+                "customTitle": "Имя"
+              },
+              "lastName": {
+                "visible": true,
+                "title": "Last Name",
+                "customTitle": "Фамилия"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email Address",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone No.",
+                "customTitle": "Телефон"
+              }
+            }
+          },
+          "_name": "header23",
+          "_anchor": "header23-2",
+          "_styles": {
+            ".fa": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showMedia": true,
+            "showButtons": false,
+            "bgImageRadio": true,
+            "paddingTop": 2,
+            "paddingBottom": "3",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.5"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "pull-left",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/2.png"
+            }
+          },
+          "title": "Потрясающий дизайн с потрясающими макетами",
+          "text": "Nam tellus turpis blandit et ligula dolorum minus fugit in ipsum semper massa magna eget nunc iaculis nunc.",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Купить сейчас <i class=\"fa fa-shopping-cart\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header18",
+          "_anchor": "header18-7",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "elements": "3",
+            "best": "4",
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3F51B5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Выберите свой план",
+          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue",
+          "favorite": "Most Popular",
+          "title1": "Лендинг",
+          "text1": "Одностраничный сайт",
+          "currency1": "₽",
+          "price1": "10000",
+          "period1": "/ год",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">5 GB of space</li><li class=\"pricing__feature\">Support at 24/7</li><li class=\"pricing__feature\">Creation will take 5 to 12 days</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title2": "Многостраничный",
+          "text2": "Многостраничный сайт",
+          "currency2": "₽",
+          "price2": "30000",
+          "period2": "/ год",
+          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">10 GB of space</li><li class=\"pricing__feature\">Support at 24/7</li><li class=\"pricing__feature\">Creation will take from 20 to 40 days</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title3": "магазин",
+          "text3": "Интернет магазин + товары",
+          "currency3": "₽",
+          "price3": "50000",
+          "period3": "/ год",
+          "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">25 GB of space</li><li class=\"pricing__feature\">Support at 24/7\n</li><li class=\"pricing__feature\"><span style=\"font-size: 13.5375px;\">Creation will take 30 to 50 days</span></li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title4": "SUPER",
+          "text4": "Perfect for small less than 10 team",
+          "currency4": "$",
+          "price4": "199",
+          "period4": "/ month",
+          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-5",
+          "_styles": {
+            "H3": {
+              "font-size": "15px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "elements": "3",
+            "best": "4",
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3F51B5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Выберите свой план",
+          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue",
+          "favorite": "Most Popular",
+          "title1": "Вконтакте",
+          "text1": "Таргетированная реклама",
+          "currency1": "₽",
+          "price1": "15000",
+          "period1": "/ месяц",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Promotion</li><li class=\"pricing__feature\"><span style=\"font-size: 0.95em;\">Attract customers</span></li><li class=\"pricing__feature\"><span style=\"font-size: 13.5375px;\">Payment for advertising is separate</span></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title2": "Яндекс.директ",
+          "text2": "Контекстная и таргетированная реклама",
+          "currency2": "₽",
+          "price2": "30000",
+          "period2": "/ месяц",
+          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Promotion</li><li class=\"pricing__feature\"><span style=\"font-size: 0.95em;\">Attract customers</span></li><li class=\"pricing__feature\"><span style=\"font-size: 13.5375px;\">Payment for advertising is separate</span></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title3": "Google adwords",
+          "text3": "Контекстная реклама",
+          "currency3": "₽",
+          "price3": "30000",
+          "period3": "/ месяц",
+          "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Promotion</li><li class=\"pricing__feature\"><span style=\"font-size: 0.95em;\">Attract customers</span></li><li class=\"pricing__feature\"><span style=\"font-size: 13.5375px;\">Payment for advertising is separate</span></li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#header23-2\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title4": "SUPER",
+          "text4": "Perfect for small less than 10 team",
+          "currency4": "$",
+          "price4": "199",
+          "period4": "/ month",
+          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-6",
+          "_styles": {
+            "H3": {
+              "font-size": "15px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#777"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "B": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "tabs": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1429x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#222",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.7"
+          },
+          "title": "Что такое?",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" href=\"#collapse2Onemsg-box7-h\" aria-expanded=\"false\" aria-controls=\"collapse2One\" data-parent=\"#msg-box7-h\">контекстная реклама</a>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" href=\"#collapse2Twomsg-box7-h\" aria-expanded=\"false\" aria-controls=\"collapse2Two\" data-parent=\"#msg-box7-h\">таргетированная реклама</a>",
+          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" href=\"#collapse2Threemsg-box7-h\" aria-expanded=\"false\" aria-controls=\"collapse2Three\" data-parent=\"#msg-box7-h\">маркет-платформа Вконтакте</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" href=\"#collapse2Fourmsg-box7-h\" aria-expanded=\"false\" aria-controls=\"collapse2Four\" data-parent=\"#msg-box7-h\">яндекс.директ</a>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" href=\"#collapse2Fivemsg-box7-h\" aria-expanded=\"true\" aria-controls=\"collapse2Five\" data-parent=\"#msg-box7-h\">google adwords</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" href=\"#collapse2Six\" aria-expanded=\"false\" aria-controls=\"collapse2Six\">This is a toggle Title 6</a>",
+          "text1": "<p><b>Контекстная реклама — это текстовые объявления, которые показываются пользователям по запросам, если эти запросы рекламодатель добавил в настройки рекламной кампании. Объявления показываются пользователю именно в тот момент, когда он сам проявил интерес к товару или услуге и, возможно, готов к покупке.</b></p>",
+          "text2": "<p><b>Таргетированная реклама – это текстовые, медийные или мультимедийные объявления, которые демонстрируются только тем пользователям Сети, которые удовлетворяют определенному набору требований, заданному рекламодателем.&nbsp;</b><b style=\"background-color: inherit;\">Также таргетинг позволяет значительно сократить расходы на рекламу без падения целевого трафика.</b></p>",
+          "text3": "<p><b>Маркет-платформа — новая система для быстрой публикации рекламы в сообществах<br>Маркет-платформа упростит работу рекламодателей с помощью автоподбора сообществ. Все рекламные записи проходят модерацию и публикуются в сообществе автоматически.</b></p>",
+          "text4": "<p><b>Яндекс.Директ — система контекстной рекламы на страницах «Яндекса» и сайтах партнеров Рекламной системы Яндекса.<br>Яндекс.Директ стал первым сервисом поисковой рекламы в русскоязычном интернете.</b></p>",
+          "text5": "<b>AdWords(Ads) &nbsp;— сервис контекстной, в основном, поисковой рекламы от компании Google, предоставляющий удобный интерфейс и множество инструментов для создания эффективных рекламных сообщений.</b>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-h"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "Симферополь, Гагарина 20а\nТЦ Гудзон, офис 256",
+              "placeId": "ChIJUWm3R4zd6kARjC6lpm8wMIQ",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title": "Связаться с нами",
+          "text": "",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Dribble\" target=\"_blank\" href=\"https://dribbble.com/Mobirise\"><i class=\"fa fa-dribbble\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "form": {
+            "action": "landingdirect82@bk.ru",
+            "alerts": {
+              "success": "Благодарим за заполнение формы!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Имя"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "subject": {
+                "visible": true,
+                "title": "Subject",
+                "customTitle": "Тема"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Сообщение"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "form6",
+          "_anchor": "form6-e"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "parallax": false,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "iconsColor": "@primaryColor",
+            "icon1": "fa-map-marker",
+            "icon2": "fa-phone",
+            "icon3": "fa-envelope"
+          },
+          "title": "l&amp;d Crimea",
+          "text1": "<b>Симферополь, Гагарина 20а\r</b><div><b>ТЦ Гудзон, офис 256</b></div>",
+          "text2": "<b>+7(978) 823 51 72</b>",
+          "text3": "<b>landingdirect82@bk.ru</b>",
+          "icons": "  <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://vk.com/landing.direct.crimea\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><span class=\"fa fa-vk mbr-iconfont mbr-iconfont-btn\"></span></a>   <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/landingdirect_crimea\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-instagram\"></i></a> ",
+          "alias": "unicore/components",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "text": "<b>© 2019. Landing&amp;Direct Crimea. All rights reserved.</b>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-g",
+          "_styles": {
+            "DIV": {
+              "color": "#111111"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
