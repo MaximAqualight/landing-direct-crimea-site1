@@ -200,3 +200,42 @@ input {
 #footer1-g DIV {
   color: #111111;
 }
+
+
+
+
+#dropdown-menu1-l .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu1-l .nav .link,
+#dropdown-menu1-l .dropdown-item {
+  font-size: 1em;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+#dropdown-menu1-l .navbar,
+#dropdown-menu1-l .dropdown-menu {
+  background: #fff;
+}
+#dropdown-menu1-l .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu1-l .dropdown-menu a:hover,
+#dropdown-menu1-l .dropdown-menu a:focus {
+  background: #f5f5f5;
+}
+#dropdown-menu1-l .navbar-toggler {
+  color: #333;
+}
+#header15-v B {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #151515;
+}
+#msg-box8-z P {
+  font-family: 'Oswald', sans-serif;
+}
+#msg-box8-z B {
+  font-family: 'Montserrat', sans-serif;
+}
+#footer1-n DIV {
+  color: #111111;
+}
