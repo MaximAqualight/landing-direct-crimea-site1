@@ -54,16 +54,16 @@
   border-color: #e78d06;
 }
 .btn.btn-danger {
-  background-color: #f97352;
-  border-color: #f97352;
+  background-color: #ff5722;
+  border-color: #ff5722;
 }
 .btn.btn-danger:hover,
 .btn.btn-danger:focus,
 .btn.btn-danger.focus,
 .btn.btn-danger:active,
 .btn.btn-danger.active {
-  background-color: #f63709;
-  border-color: #f63709;
+  background-color: #d43300;
+  border-color: #d43300;
 }
 .text-primary {
   color: #29d9c2 !important;
@@ -78,7 +78,7 @@
   color: #faaf40 !important;
 }
 .text-danger {
-  color: #f97352 !important;
+  color: #ff5722 !important;
 }
 a {
   color: #29d9c2;
@@ -204,6 +204,10 @@ input {
 
 
 
+
+
+
+
 #dropdown-menu1-l .hide-buttons [data-button] {
   display: none !important;
 }
@@ -225,16 +229,31 @@ input {
 #dropdown-menu1-l .navbar-toggler {
   color: #333;
 }
+#header6-o B {
+  font-family: 'Oswald', sans-serif;
+}
+#header8-p H3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+}
+#header19-q H3 {
+  font-family: 'Oswald', sans-serif;
+}
+#header19-q B {
+  font-family: 'Oswald', sans-serif;
+}
 #header15-v B {
   font-size: 60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #151515;
 }
 #msg-box8-z P {
   font-family: 'Oswald', sans-serif;
 }
 #msg-box8-z B {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #footer1-n DIV {
   color: #111111;

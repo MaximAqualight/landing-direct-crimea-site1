@@ -10,7 +10,7 @@
         "successColor": "#7ac673",
         "infoColor": "#27aae0",
         "warningColor": "#faaf40",
-        "dangerColor": "#f97352",
+        "dangerColor": "#ff5722",
         "titleFont": "Montserrat",
         "textFont": "Raleway",
         "isSquareButtons": true
@@ -31,7 +31,7 @@
     "noImageResize": "",
     "seo-meta": "",
     "globalfooter": "",
-    "uniqCompNum": 36,
+    "uniqCompNum": 39,
     "versionPublish": "4.6.4",
     "screenshot": "screenshot.png"
   },
@@ -63,7 +63,7 @@
             },
             "fontColor": "#333"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"true\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"true\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"page1.html\">шаблоны</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"true\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"true\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-danger\" href=\"page1.html\">шаблоны</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Темы"
@@ -96,8 +96,9 @@
               "class": "",
               "height": 128,
               "alt": "Landing&Direct Crimea",
-              "link": "#top",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "_name": "dropdown-menu1",
@@ -224,6 +225,52 @@
         {
           "_params": {
             "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true,
+            "bgImageRadio": true,
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "bgImage": "@PROJECT_PATH@/assets/images/16.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.png"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<b>Мы делаем целевые страницы</b>",
+          "text": "<p>Это самый эффектиный способ рекламы а также увеличения аудитории где более детально содержится вся нужная информация о услуге или товаре.</p><br><ul><li><i class=\"icon-check2 mbr-primary-color\"></i>Привлечение</li><li><i class=\"icon-check2 mbr-primary-color\"></i>Заинтерисованность</li><li><i class=\"icon-check2 mbr-primary-color\"></i> Желание приобрести</li></ul>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#pricing-table1-5\">лендинг&nbsp;<i class=\"fa fa-shopping-basket\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header9",
+          "_anchor": "header9-12"
+        },
+        {
+          "_params": {
+            "showTitle": true,
             "showText": false,
             "showButtons": true,
             "elements": "3",
@@ -292,7 +339,7 @@
             "showText": false,
             "showButtons": true,
             "elements": "3",
-            "best": "4",
+            "best": "2",
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": true,
@@ -552,7 +599,7 @@
             },
             "fontColor": "#333"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"true\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"true\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"page1.html\">шаблоны</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"true\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"true\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-danger\" href=\"page1.html\">шаблоны</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Темы"
@@ -585,8 +632,9 @@
               "class": "",
               "height": 128,
               "alt": "Landing&Direct Crimea",
-              "link": "#top",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "_name": "dropdown-menu1",
@@ -612,7 +660,7 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.35
           },
-          "title": "Знакомьтесь с MARK1<br>Инструмент целевой страницы",
+          "title": "<b>Знакомьтесь с MARK1<br>Инструмент целевой страницы</b>",
           "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
           "buttons": "<a data-app-btn=\"true\" href=\"index.html#pricing-table1-5\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Лендинг&nbsp;<i class=\"fa fa-shopping-basket\"></i></a>",
           "alias": "unicore/components",
@@ -620,7 +668,13 @@
             "Темы"
           ],
           "_name": "header6",
-          "_anchor": "header6-o"
+          "_anchor": "header6-o",
+          "_styles": {
+            "B": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -666,7 +720,16 @@
             "Темы"
           ],
           "_name": "header8",
-          "_anchor": "header8-p"
+          "_anchor": "header8-p",
+          "_styles": {
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center",
+              "font-size": "60px",
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_params": {
@@ -699,14 +762,24 @@
               "title": ""
             }
           },
-          "title": "Новый способ взаимодействия с клиентами",
+          "title": "<b>Новый способ взаимодействия с клиентами</b>",
           "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Купить сейчас <i class=\"fa fa-shopping-cart\"></i></a>",
           "alias": "unicore/components",
           "_tags": [
             "Темы"
           ],
           "_name": "header19",
-          "_anchor": "header19-q"
+          "_anchor": "header19-q",
+          "_styles": {
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "B": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -829,7 +902,7 @@
               "loop": false
             }
           },
-          "title": "<b>Креативный &amp; простой дизайн</b>",
+          "title": "<b>Креативный и простой дизайн</b>",
           "text": "<b>MARK2</b>",
           "buttons": "<a data-app-btn=\"true\" href=\"index.html#pricing-table1-5\" class=\"btn mbr-title-font btn-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ЛЕНДИНГ<i class=\"icon-location2\"></i></a>",
           "alias": "unicore/components",
@@ -841,8 +914,8 @@
           "_styles": {
             "B": {
               "font-size": "60px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "color": "#151515"
             }
           }
@@ -898,8 +971,8 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             "B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           }
         },
