@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -30,16 +29,16 @@
   border-color: #177aa3;
 }
 .btn.btn-success {
-  background-color: #7ac673;
-  border-color: #7ac673;
+  background-color: #0300ff;
+  border-color: #0300ff;
 }
 .btn.btn-success:hover,
 .btn.btn-success:focus,
 .btn.btn-success.focus,
 .btn.btn-success:active,
 .btn.btn-success.active {
-  background-color: #4da844;
-  border-color: #4da844;
+  background-color: #0200b3;
+  border-color: #0200b3;
 }
 .btn.btn-warning {
   background-color: #faaf40;
@@ -72,7 +71,7 @@
   color: #27aae0 !important;
 }
 .text-success {
-  color: #7ac673 !important;
+  color: #0300ff !important;
 }
 .text-warning {
   color: #faaf40 !important;
@@ -143,11 +142,11 @@ blockquote {
 }
 .mbr-title-font,
 .mbr-gallery-filter li {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
 }
 .mbr-text-font,
 p {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
 }
 .btn {
   border-radius: 0 !important;
@@ -201,60 +200,89 @@ input {
   color: #111111;
 }
 
-
-
-
-
-
-
-
-#dropdown-menu1-l .hide-buttons [data-button] {
+#dropdown-menu1-18 .hide-buttons [data-button] {
   display: none !important;
 }
-#dropdown-menu1-l .nav .link,
-#dropdown-menu1-l .dropdown-item {
+#dropdown-menu1-18 .nav .link,
+#dropdown-menu1-18 .dropdown-item {
   font-size: 1em;
   color: #333;
   font-family: 'Montserrat', sans-serif;
 }
-#dropdown-menu1-l .navbar,
-#dropdown-menu1-l .dropdown-menu {
+#dropdown-menu1-18 .navbar,
+#dropdown-menu1-18 .dropdown-menu {
   background: #fff;
 }
-#dropdown-menu1-l .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#dropdown-menu1-l .dropdown-menu a:hover,
-#dropdown-menu1-l .dropdown-menu a:focus {
+#dropdown-menu1-18 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu1-18 .dropdown-menu a:hover,
+#dropdown-menu1-18 .dropdown-menu a:focus {
   background: #f5f5f5;
 }
-#dropdown-menu1-l .navbar-toggler {
+#dropdown-menu1-18 .navbar-toggler {
   color: #333;
 }
-#header6-o B {
-  font-family: 'Oswald', sans-serif;
+#header22-1d H4 {
+  color: #000000;
 }
-#header8-p H3 {
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  font-size: 60px;
-  color: #ffffff;
+#footer1-1a DIV {
+  color: #111111;
 }
-#header19-q H3 {
-  font-family: 'Oswald', sans-serif;
+
+#dropdown-menu1-1g .hide-buttons [data-button] {
+  display: none !important;
 }
-#header19-q B {
-  font-family: 'Oswald', sans-serif;
+#dropdown-menu1-1g .nav .link,
+#dropdown-menu1-1g .dropdown-item {
+  font-size: 1em;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
 }
-#header15-v B {
-  font-size: 60px;
-  font-family: 'Oswald', sans-serif;
-  color: #151515;
+#dropdown-menu1-1g .navbar,
+#dropdown-menu1-1g .dropdown-menu {
+  background: #fff;
 }
-#msg-box8-z P {
-  font-family: 'Oswald', sans-serif;
+#dropdown-menu1-1g .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu1-1g .dropdown-menu a:hover,
+#dropdown-menu1-1g .dropdown-menu a:focus {
+  background: #f5f5f5;
 }
-#msg-box8-z B {
-  font-family: 'Oswald', sans-serif;
+#dropdown-menu1-1g .navbar-toggler {
+  color: #333;
 }
-#footer1-n DIV {
+#testimonials2-1q P {
+  font-size: 15px;
+}
+#footer1-1i DIV {
+  color: #111111;
+}
+
+#header17-1w P {
+  color: #03a9f4;
+}
+#dropdown-menu1-1r .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu1-1r .nav .link,
+#dropdown-menu1-1r .dropdown-item {
+  font-size: 1em;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+#dropdown-menu1-1r .navbar,
+#dropdown-menu1-1r .dropdown-menu {
+  background: #fff;
+}
+#dropdown-menu1-1r .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu1-1r .dropdown-menu a:hover,
+#dropdown-menu1-1r .dropdown-menu a:focus {
+  background: #f5f5f5;
+}
+#dropdown-menu1-1r .navbar-toggler {
+  color: #333;
+}
+#pricing-table2-21 DIV {
+  color: #000000;
+}
+#footer1-1t DIV {
   color: #111111;
 }
