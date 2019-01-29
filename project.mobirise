@@ -40,7 +40,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Landing &amp; Direct Crimea\n",
+        "title": "Landing & Direct Crimea",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -64,7 +64,7 @@
             },
             "fontColor": "#333"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"false\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"true\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Темы"
@@ -580,7 +580,10 @@
     "page1.html": {
       "settings": {
         "title": "MARK 1",
-        "order": 1
+        "order": 1,
+        "header_custom": "",
+        "html_before": "",
+        "footer_custom": ""
       },
       "components": [
         {
@@ -600,7 +603,7 @@
             },
             "fontColor": "#333"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"false\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"true\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Темы"
@@ -749,7 +752,7 @@
         },
         {
           "_params": {
-            "showButtons": false,
+            "showButtons": true,
             "bgImageRadio": false,
             "elements": "3",
             "best": "2",
@@ -771,12 +774,12 @@
           "text1": "Lorem ipsum Package",
           "price1": "$19",
           "list1": "<p><b>50</b> Email Addresses</p><p><b>35GB</b> of Storage</p><p><b>40</b> Databases</p><p><b>10</b> Domains</p><p><b>24/7</b> Support</p>",
-          "button1": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">SELECT PLAN</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
           "title2": "Gold Plan",
           "text2": "Lorem ipsum Package",
           "price2": "$49",
           "list2": "<p><b>50</b> Email Addresses</p><p><b>35GB</b> of Storage</p><p><b>40</b> Databases</p><p><b>10</b> Domains</p><p><b>24/7</b> Support</p>",
-          "button2": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
           "title3": "Platinum Plan",
           "text3": "Lorem ipsum Package",
           "price3": "$95",
@@ -915,7 +918,10 @@
     "page2.html": {
       "settings": {
         "title": "MARK 2",
-        "order": 2
+        "order": 2,
+        "header_custom": "",
+        "html_before": "",
+        "footer_custom": ""
       },
       "components": [
         {
@@ -935,7 +941,7 @@
             },
             "fontColor": "#333"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"false\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"true\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Темы"
@@ -1264,7 +1270,10 @@
     "page3.html": {
       "settings": {
         "title": "MARK 3",
-        "order": 3
+        "order": 3,
+        "header_custom": "",
+        "html_before": "",
+        "footer_custom": ""
       },
       "components": [
         {
@@ -1273,7 +1282,7 @@
             "showText": true,
             "showButtons": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/62.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/617.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -1318,7 +1327,7 @@
             },
             "fontColor": "#333"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"false\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"true\" target=\"_blank\" data-toggle=\"dropdown-submenu\">Шаблоны</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">MARK 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">MARK 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">MARK 3</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/landing.direct.crimea\" aria-expanded=\"false\" target=\"_blank\">Вконтакте</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://instagram.com/landingdirect_crimea\" aria-expanded=\"false\" target=\"_blank\">instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+7-978-8235172\">позвонить</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://mobiris.ru\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Темы"
@@ -1499,7 +1508,7 @@
               "active": true,
               "class": "mbr-figure__img img-responsive post-thumb",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/40.jpg"
+              "src": "@PROJECT_PATH@/assets/images/415.jpg"
             },
             "video": {
               "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
@@ -1636,7 +1645,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/21.png",
+              "src": "@PROJECT_PATH@/assets/images/216.png",
               "class": "img-responsive center-block",
               "width": 600,
               "active": true
